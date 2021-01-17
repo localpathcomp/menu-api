@@ -1,5 +1,3 @@
-import { exception } from "console";
-
 export default class HttpException extends Error {
     statusCode?: number
     status?: number
