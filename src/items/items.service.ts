@@ -7,7 +7,7 @@ import { Items } from './items.interface'
 /**
  * In-Memory Store
  */
-let items: Items = {
+const items: Items = {
     1: {
       id: 1,
       name: "Burger",
