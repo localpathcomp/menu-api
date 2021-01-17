@@ -4,8 +4,7 @@
 import express, { Request, Response } from 'express'
 import * as ItemService from './items.service'
 import { BaseItem, Item } from './item.interface'
-import { parse } from 'dotenv/types'
-import { triggerAsyncId } from 'async_hooks'
+
 /**
  * Router Definition
  */
